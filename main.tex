@@ -1,0 +1,86 @@
+% !TeX program = xelatex
+\documentclass{hnie-thesis}
+\usepackage{amsmath,amssymb,amsfonts,bm,mathtools}
+\usepackage{graphicx}
+\usepackage{booktabs,longtable,multirow,array,tabularx}
+\usepackage{float}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+%\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{makecell}
+\usepackage{url}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black
+}
+
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue!70!black},
+    commentstyle=\color{green!40!black},
+    stringstyle=\color{red!60!black},
+    breaklines=true,
+    frame=single,
+    columns=fullflexible,
+    showstringspaces=false
+}
+\lstset{style=pythonstyle}
+\renewcommand{\lstlistingname}{代码}
+\renewcommand{\lstlistlistingname}{代码清单}
+
+\hniesetup{
+  title={基于机器学习及车联网数据的\\车辆碰撞识别预警系统},
+  english-title={Vehicle Collision Detection and Warning System based on Machine Learning and Vehicle-to-Everything Data},
+  college={计算科学与电子学院},
+  major={数据科学与大数据技术},
+  class={大数据2101班},
+  student-id={2021********},
+  author={刘**},
+  supervisor={文**},
+  date={2025年6月2日}
+}
+
+\begin{document}
+
+\makehniecover
+\makehnieintegrity
+\hniemaketoc
+
+\hniebeginabstracts
+\begin{cnabstract}
+随着新能源电动汽车的飞速发展，各行业与用户对于低成本高效的车辆碰撞识别系统的需求越来越高。然而...
+
+\hniekeywords{数据探索及清洗；特征工程；贪心随机网格搜索；随机森林；GBDT}
+\end{cnabstract}
+
+\begin{enabstract}
+With the rapid development of new energy electric vehicles, there is an increasing demand across industries and among users for low-cost, high-efficiency vehicle collision detection systems. However ...
+
+\hnieenkeywords{Data exploration and cleaning; Feature engineering; Greedy randomized search; Random forest; GBDT}
+\end{enabstract}
+
+\hniebodymatter
+
+\include{chapters/chapter1}
+
+\hnieprintbibliography{references}
+
+\begin{hnieacknowledgements}
+大学四年时光荏苒，转瞬即逝。感谢湖南工程学院为我提供了一个平台，让我在这四年的时间有所沉淀，有所收获。
+
+...
+\end{hnieacknowledgements}
+
+\end{document}
