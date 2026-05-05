@@ -1,6 +1,8 @@
 # 湖南工程学院毕业论文非官方LaTeX模版
 本项目参考`2026届湖南工程学院非卓越理工类毕业设计(论文)模板（电气4个专业、机械3个专业、智能建造、材化3个专业、信工4个专业、计算电子、医工、国教、服装工程、非织造）.doc` 的格式规范，并采用 Codex 进行vibe-coding 的模式辅助构建而成。
 
+Textpage模版链接：https://www.texpage.com/zh/template/3d8ea770-1261-4faf-96a9-ede4907bb608/
+
 如果你觉得这个项目对您有帮助，欢迎引用我的bibtex
 ```bibtex
 @misc{XurongLiu2026HNIETemplate,
